@@ -1,0 +1,12 @@
+{
+  "name": "farge",
+  "version": "0.1.0",
+  "description": "Terminal colors and styles the easy way",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldoy/farge"
+  },
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "license": "ISC"
+}
