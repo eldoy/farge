@@ -36,6 +36,6 @@ farge.green.log('hello')
 farge.green.bold.log('hello')
 ```
 
-See `lib/colors.js` for all the possible colors and styles.
+See [lib/colors.js](https://github.com/eldoy/farge/blob/master/lib/colors.js) for all the possible colors and styles.
 
 ISC Licensed. Enjoy!
