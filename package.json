@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Terminal colors and styles the easy way",
   "main": "index.js",
+  "scripts": {
+    "test": "nodemon test/run.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/eldoy/farge"
