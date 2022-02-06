@@ -13,7 +13,6 @@ npm i farge
 ### Usage
 
 ```js
-// Farge functions are added to the console object
 const farge = require('farge')({
 
   // Set to true to add newline automatically
@@ -33,7 +32,7 @@ farge.red.log('hello')
 farge.green.log('hello')
 
 // Bold and green, combine as many as you want
-farge.green.bold.log('hello')
+farge.bold.green.log('hello')
 ```
 
 See [lib/colors.js](https://github.com/eldoy/farge/blob/master/lib/colors.js) for all the possible colors and styles.
