@@ -1,4 +1,5 @@
 const colors = require('./lib/colors.js')
+const enabled = require('./lib/enabled.js')
 const names = Object.keys(colors)
 
 function colorize(type, str) {
@@ -10,9 +11,11 @@ let current = []
 
 module.exports = function farge(opt = {}) {
   function log(str) {
-    let i = current.length
-    while(current[--i]) {
-      str = colorize(current[i], str)
+    if (enabled) {
+      let i = current.length
+      while(current[--i]) {
+        str = colorize(current[i], str)
+      }
     }
     if (opt.newline) str += '\n'
     process.stdout.write(str)
