@@ -20,6 +20,7 @@ module.exports = function farge(opt = {}) {
     if (opt.newline) str += '\n'
     process.stdout.write(str)
     current = []
+    return str
   }
 
   return new Proxy({}, {
